@@ -3,10 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js --exec babel-node"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.4.3",
     "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "koa": "^2.7.0",
+    "rascal": "^4.3.0"
   }
 }
